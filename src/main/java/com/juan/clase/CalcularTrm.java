@@ -18,6 +18,12 @@ public class CalcularTrm {
 			calcularValorPeso(valor);
 		}
 	}
+	
+
+	public CalcularTrm() {
+		super();
+	}
+
 
 	public void calcularValorDolar(double valor) {
 		pessos=valor;
